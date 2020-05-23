@@ -11,7 +11,7 @@
     'website': "https://github.com/RayMiles94/ray_school",
     'category': 'School',
     'version': '1.0',
-    'depends': ['base'],
+    'depends': ['base', 'contacts'],
     'data': [
         'security/ir.model.access.csv',
         'views/attendance.xml',

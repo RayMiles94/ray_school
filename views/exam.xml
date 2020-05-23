@@ -20,9 +20,11 @@
                 <form string="Exam">
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="start_date"/>
-                            <field name="exam_type"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="start_date"/>
+                                <field name="exam_type"/>
+                            </group>
                         </group>
                     </sheet>
                 </form>

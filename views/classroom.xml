@@ -22,13 +22,24 @@
                 <form string="Classroom">
                     <sheet>
                         <group>
-                            <field name="year"/>
-                            <field name="grade_id"/>
-                            <field name="section"/>
-                            <field name="status"/>
-                            <field name="remarks"/>
-                            <field name="teacher_ids"/>
+                            <group>
+                                <field name="year"/>
+                                <field name="grade_id"/>
+                                <field name="section"/>
+                            </group>
+                            <group>
+                                <field name="status"/>
+                                <field name="remarks"/>
+                            </group>
                         </group>
+                        <notebook>
+                            <page string="Teachers">
+                                <field name="teacher_ids" option="{'no_create_edit': True, 'no_create':True, 'no_open':True}"/>
+                            </page>
+                            <page string="Students">
+                                <field name="students_ids" option="{'no_create_edit': True, 'no_create':True, 'no_open':True}"/>
+                            </page>
+                        </notebook>
                     </sheet>
                 </form>
             </field>

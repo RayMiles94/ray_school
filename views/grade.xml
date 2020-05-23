@@ -20,8 +20,10 @@
                 <form string="Grade">
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="desc"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="desc"/>
+                            </group>
                         </group>
                     </sheet>
                 </form>

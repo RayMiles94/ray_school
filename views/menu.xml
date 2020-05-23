@@ -49,7 +49,7 @@
         <menuitem id="ray_school_exam_exam_result"
                   name="Exam result"
                   parent="ray_school_exam"
-                  action="ray_school_examtype_action"
+                  action="ray_school_exam_result_action"
                   sequence="3"/>
 
 

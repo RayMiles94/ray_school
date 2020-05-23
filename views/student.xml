@@ -34,6 +34,8 @@
                                 <field name="mobile"/>
                                 <field name="join_date"/>
                                 <field name="Status"/>
+                                <field name="contact_id"/>
+                                <field name="class_id"/>
                             </group>
                         </group>
                     </sheet>

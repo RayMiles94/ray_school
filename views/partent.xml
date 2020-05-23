@@ -33,6 +33,7 @@
                                 <field name="mobile"/>
                                 <field name="join_date"/>
                                 <field name="Status"/>
+                                <field name="contact_id"/>
                             </group>
                         </group>
                     </sheet>

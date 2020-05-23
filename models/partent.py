@@ -11,6 +11,7 @@ class partent(models.Model):
     mobile = fields.Char(string="Mobile", required=True)
     join_date = fields.Date(string="Joind Date", required=True)
     Status = fields.Boolean(string="Status", required=True)
+    contact_id = fields.Many2one('res.partner', string="Contact profile")
 
     @api.constrains('name')
     def check_name(self):

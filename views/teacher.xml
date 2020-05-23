@@ -24,13 +24,15 @@
                 <form string="Teacher">
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="phone"/>
-                            <field name="email"/>
-                            <field name="mobile"/>
-                            <field name="join_date"/>
-                            <field name="Status"/>
-                            <field name="class_id"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="phone"/>
+                                <field name="email"/>
+                                <field name="mobile"/>
+                                <field name="join_date"/>
+                                <field name="Status"/>
+                                <field name="class_id"/>
+                            </group>
                         </group>
                     </sheet>
                 </form>

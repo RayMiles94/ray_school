@@ -21,9 +21,11 @@
                 <form string="course">
                     <sheet>
                         <group>
-                            <field name="name"/>
-                            <field name="desc"/>
-                            <field name="grade_id"/>
+                            <group>
+                                <field name="name"/>
+                                <field name="desc"/>
+                                <field name="grade_id"/>
+                            </group>
                         </group>
                     </sheet>
                 </form>
