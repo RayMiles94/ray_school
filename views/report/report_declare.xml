@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+                id="ray_school.report_class_tempalte_report_id"
+                model="ray.school.classroom"
+                report_type="qweb-pdf"
+                string="Print Class"
+                name="ray_school.report_class_tempalte"
+                file="ray_school.report_class_tempalte"
+                menu="True"
+        />
+
+    </data>
+</odoo>

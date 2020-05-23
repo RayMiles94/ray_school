@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="report_class_tempalte">
+
+            <t t-call="web.html_container">
+                <t t-call="web.internal_layout">
+                    <t t-foreach="docs" t-as="o">
+                        <div class="page">
+                            <h2>Class <span t-field="o.name" /></h2>
+                            <table id="Class" class="table table-striped">
+                                <tr>
+                                    <td>year</td>
+                                    <td>grade</td>
+                                    <td>section</td>
+                                    <td>status</td>
+                                    <td>remarks</td>
+                                </tr>
+                                <tr>
+                                    <td><t  t-esc="o.year" /></td>
+                                    <td><t  t-esc="o.grade_id.name" /></td>
+                                    <td><t  t-esc="o.section" /></td>
+                                    <td><t  t-esc="o.status" /></td>
+                                    <td><t  t-esc="o.remarks" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </t>
+                </t>
+            </t>
+
+        </template>
+
+
+
+    </data>
+</odoo>

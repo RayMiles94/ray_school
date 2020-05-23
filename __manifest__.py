@@ -26,6 +26,8 @@
         'views/teacher.xml',
         'views/grade.xml',
         'views/menu.xml',
+        'views/report/report_class_template.xml',
+        'views/report/report_declare.xml',
     ],
     'demo': [
         'demo/demo.xml',
