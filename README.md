@@ -1,2 +1,2 @@
-# ray_school
+# Ray School
 odoo ray school application
