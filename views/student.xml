@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="ray_school_student_tree" model="ir.ui.view">
+            <field name="name">ray.school.student.tree</field>
+            <field name="model">ray.school.student</field>
+            <field name="arch" type="xml">
+                <tree string="Partent">
+                    <field name="name"/>
+                    <field name="email"/>
+                    <field name="phone"/>
+                    <field name="mobile"/>
+                    <field name="join_date"/>
+                    <field name="Status"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="ray_school_student_form" model="ir.ui.view">
+            <field name="name">ray.school.student.form</field>
+            <field name="model">ray.school.student</field>
+            <field name="arch" type="xml">
+                <form string="student">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="email"/>
+                                <field name="phone"/>
+                            </group>
+                            <group>
+                                <field name="mobile"/>
+                                <field name="join_date"/>
+                                <field name="Status"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="ray_school_student_action" model="ir.actions.act_window">
+            <field name="name">Student</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ray.school.student</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>
