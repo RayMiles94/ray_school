@@ -1,6 +1,7 @@
 from odoo import fields, api, models, _
 from odoo.exceptions import ValidationError
 
+
 class exam(models.Model):
     _name = 'ray.school.exam'
     _description = 'exam'
