@@ -10,10 +10,10 @@ class exam_type(models.Model):
 
     @api.constrains('name')
     def check_name(self):
-        if (len(self.name) > 45):
+        if len(self.name) > 45:
             raise ValidationError(_('name must less than 50 chars'))
 
     @api.constrains('desc')
     def check_name(self):
-        if (len(self.desc) > 45):
+        if len(self.desc) > 45:
             raise ValidationError(_('desc must less than 50 chars'))
