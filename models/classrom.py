@@ -19,6 +19,7 @@ YEAR = [
     ('2025','2025'),
 ]
 
+
 class classroom(models.Model):
     _name = 'ray.school.classroom'
     _description = 'ClassRoom'

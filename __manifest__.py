@@ -2,17 +2,16 @@
 {
     'name': "school",
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+    Odoo School application     
+    """,
     'description': """
-        Long description of module's purpose
+        Odoo School application
     """,
     'author': "raouf",
     'website': "http://www.raouf.com",
-    'category': 'Uncategorized',
+    'category': 'School',
     'version': '1.0',
     'depends': ['base'],
-
     'data': [
         'security/ir.model.access.csv',
     ],

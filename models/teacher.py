@@ -11,7 +11,7 @@ class teacher(models.Model):
     mobile = fields.Char(string="Mobile", required=True)
     join_date = fields.Date(string="Joind Date", required=True)
     Status = fields.Boolean(string="Status", required=True)
-    class_id = fields.One2many('ray.school.classroom')
+    class_id = fields.Many2one('ray.school.classroom')
 
 
     @api.constrains('name')

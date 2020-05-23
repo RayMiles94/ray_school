@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-modele_id_1,ray_school_attendance,ray_school.model_attendance,,1,1,1,1
+modele_id_1,ray_school_attendance,ray_school.model_ray_school_attendance,,1,1,1,1
 modele_id_2,ray_school_classroom,ray_school.model_ray_school_classroom,,1,1,1,1
 modele_id_3,ray_school_classroomstudent,ray_school.model_ray_school_classroomstudent,,1,1,1,1
 modele_id_4,ray_school_course,ray_school.model_ray_school_course,,1,1,1,1
