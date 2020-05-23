@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- top menu -->
+        <menuitem id="ray_school_home_menu_top" name="School"  sequence="5" web_icon="ray_school,static/description/icon.png" />
+
+
+        <!-- Class menu -->
+        <menuitem id="ray_school_home_menu_class" name="Class" parent="ray_school_home_menu_top" sequence="1"/>
+        <menuitem id="ray_school_home_menu_class_classroom"
+                  name="Classroom"
+                  parent="ray_school_home_menu_class"
+                  action="ray_school_classroom_action"
+                  sequence="1"/>
+
+        <menuitem id="ray_school_menu_classroomstudent"
+                  name="Classroom Student"
+                  parent="ray_school_home_menu_class"
+                  action="ray_school_classroomstudent_action"
+                  sequence="2"/>
+
+        <menuitem id="ray_school_menu_garde"
+                  name="Grade"
+                  parent="ray_school_home_menu_class"
+                  action="ray_school_grade_action"
+                  sequence="3"/>
+
+        <menuitem id="ray_school_course"
+                  name="Course"
+                  parent="ray_school_home_menu_class"
+                  action="ray_school_course_action"
+                  sequence="4"/>
+
+        <!-- Exam -->
+        <menuitem id="ray_school_exam" name="Exam" sequence="2" parent="ray_school_home_menu_top" />
+        <menuitem id="ray_school_exam_exam"
+                  name="Exam"
+                  parent="ray_school_exam"
+                  action="ray_school_exam_action"
+                  sequence="1"/>
+
+        <menuitem id="ray_school_exam_exam_type"
+                  name="Exam Type"
+                  parent="ray_school_exam"
+                  action="ray_school_examtype_action"
+                  sequence="2"/>
+
+        <menuitem id="ray_school_exam_exam_result"
+                  name="Exam result"
+                  parent="ray_school_exam"
+                  action="ray_school_examtype_action"
+                  sequence="3"/>
+
+
+        <!-- teacher -->
+        <menuitem id="ray_school_teacher" name="Teachers" parent="ray_school_home_menu_top"  sequence="3"/>
+        <menuitem id="ray_school_teacher_teachers"
+                  name="teacher"
+                  parent="ray_school_teacher"
+                  action="ray_school_teacher_action"
+                  sequence="1"/>
+
+        <!-- Students -->
+        <menuitem id="ray_school_students" name="Students" parent="ray_school_home_menu_top"  sequence="4"/>
+        <menuitem id="ray_school_students_students"
+                  name="Students"
+                  parent="ray_school_students"
+                  action="ray_school_student_action"
+                  sequence="1"/>
+        <menuitem id="ray_school_students_partnets"
+                  name="partents"
+                  parent="ray_school_students"
+                  action="ray_school_partent_action"
+                  sequence="2"/>
+
+        <!-- settings -->
+        <menuitem id="ray_school_settings" name="Settings" parent="ray_school_home_menu_top"  sequence="5"/>
+        <menuitem id="ray_school_settings_attends"
+                  name="Attendance"
+                  parent="ray_school_settings"
+                  action="ray_school_attendance_action"
+                  sequence="1"/>
+    </data>
+</odoo>
