@@ -1,5 +1,6 @@
 from odoo import fields, api, models, _
 from odoo.exceptions import ValidationError
+
 YEAR = [
     ('2010','2010'),
     ('2011','2011'),

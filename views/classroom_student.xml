@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="ray_school_classroomstudent_tree" model="ir.ui.view">
+            <field name="name">ray.school.classroomstudent.tree</field>
+            <field name="model">ray.school.classroomstudent</field>
+            <field name="arch" type="xml">
+                <tree string="classroom student">
+                    <field name="classromm_id"/>
+                    <field name="student_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="ray_school_classroomstudent_form" model="ir.ui.view">
+            <field name="name">ray.school.classroomstudent.from</field>
+            <field name="model">ray.school.classroomstudent</field>
+            <field name="arch" type="xml">
+                <form string="classroomstudent">
+                    <sheet>
+                        <group>
+                            <field name="classromm_id"/>
+                            <field name="student_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="ray_school_classroomstudent_action" model="ir.actions.act_window">
+            <field name="name">Classroom Student</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ray.school.classroomstudent</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+    </data>
+</odoo>

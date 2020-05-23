@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="ray_school_exam_tree" model="ir.ui.view">
+            <field name="name">ray.school.exam.tree</field>
+            <field name="model">ray.school.exam</field>
+            <field name="arch" type="xml">
+                <tree string="Exam">
+                    <field name="name"/>
+                    <field name="start_date"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="ray_school_exam_form" model="ir.ui.view">
+            <field name="name">ray.school.exam.tree</field>
+            <field name="model">ray.school.exam</field>
+            <field name="arch" type="xml">
+                <form string="Exam">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="start_date"/>
+                            <field name="exam_type"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="ray_school_exam_action" model="ir.actions.act_window">
+            <field name="name">Exam</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ray.school.exam</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+    </data>
+</odoo>

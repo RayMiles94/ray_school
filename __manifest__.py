@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "school",
+    'name': "Ray School",
     'summary': """
     Odoo School application     
     """,
     'description': """
         Odoo School application
     """,
-    'author': "raouf",
-    'website': "http://www.raouf.com",
+    'author': "RayMiles94",
+    'website': "https://github.com/RayMiles94/ray_school",
     'category': 'School',
     'version': '1.0',
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
+        'views/attendance.xml',
+        'views/classroom.xml',
+        'views/course.xml',
+        'views/exam.xml',
     ],
     'demo': [
         'demo/demo.xml',

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="ray_school_attendance_tree" model="ir.ui.view">
+            <field name="name">ray.school.attendance.tree</field>
+            <field name="model">ray.school.attendance</field>
+            <field name="arch" type="xml">
+                <tree string="attendance">
+                    <field name="student_id"/>
+                    <field name="status"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="ray_school_attendance_form" model="ir.ui.view">
+            <field name="name">ray.school.attendance.from</field>
+            <field name="model">ray.school.attendance</field>
+            <field name="arch" type="xml">
+                <form string="attendance">
+                    <sheet>
+                        <group>
+                            <field name="student_id"/>
+                            <field name="status"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="ray_school_attendance_action" model="ir.actions.act_window">
+            <field name="name">Attendance</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ray.school.attendance</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+    </data>
+</odoo>
