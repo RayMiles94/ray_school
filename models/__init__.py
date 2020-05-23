@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-
-from . import models
 from . import classrom
 from . import grade
 from . import course

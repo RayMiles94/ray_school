@@ -1,2 +1,12 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-school_id_1,school_name,school.model_school_school,,1,1,1,1
+modele_id_1,ray_school_attendance,ray_school.model_attendance,,1,1,1,1
+modele_id_2,ray_school_classroom,ray_school.model_ray_school_classroom,,1,1,1,1
+modele_id_3,ray_school_classroomstudent,ray_school.model_ray_school_classroomstudent,,1,1,1,1
+modele_id_4,ray_school_course,ray_school.model_ray_school_course,,1,1,1,1
+modele_id_5,ray_school_exam,ray_school.model_ray_school_exam,,1,1,1,1
+modele_id_6,ray_school_exam_result,ray_school.model_ray_school_exam_result,,1,1,1,1
+modele_id_7,ray_school_examtype,ray_school.model_ray_school_examtype,,1,1,1,1
+modele_id_8,ray_school_grade,ray_school.model_ray_school_grade,,1,1,1,1
+modele_id_9,ray_school_partent,ray_school.model_ray_school_partent,,1,1,1,1
+modele_id_10,ray_school_student,ray_school.model_ray_school_student,,1,1,1,1
+modele_id_11,ray_school_teacher,ray_school.model_ray_school_teacher,,1,1,1,1
