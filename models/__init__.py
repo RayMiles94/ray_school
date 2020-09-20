@@ -8,5 +8,5 @@ from . import exam_type
 from . import exam
 from . import student
 from . import exam_result
-from . import partent
+from . import parent
 from . import teacher

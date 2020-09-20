@@ -2,7 +2,7 @@ from odoo import fields, api, models, _
 from odoo.exceptions import ValidationError
 
 class partent(models.Model):
-    _name = 'ray.school.partent'
+    _name = 'ray.school.parent'
     _description = 'partent'
 
     name = fields.Char(string="Name", requried=True)

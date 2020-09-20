@@ -10,11 +10,12 @@ class student(models.Model):
     email = fields.Char(string="Email", required=True)
     phone = fields.Char(string="Phone", required=True)
     mobile = fields.Char(string="Mobile", required=True)
-    parent_id = fields.Many2one('ray.school.partent', required=True)
+    parent_id = fields.Many2one('ray.school.parent', required=True)
     join_date = fields.Date(string="Joind Date", required=True)
     Status = fields.Boolean(string="Status", required=True)
     contact_id = fields.Many2one('res.partner', string="Contact profile")
     class_id = fields.Many2one('ray.school.classroom', string="Class")
+    exams_ids = fields.One2many('ray.school.exam.result', 'student_id', string="Exams")
 
     @api.constrains('name')
     def check_name(self):

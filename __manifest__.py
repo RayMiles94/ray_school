@@ -21,7 +21,7 @@
         'views/exam.xml',
         'views/exam_result.xml',
         'views/exam_type.xml',
-        'views/partent.xml',
+        'views/parent.xml',
         'views/student.xml',
         'views/teacher.xml',
         'views/grade.xml',
