@@ -28,6 +28,7 @@
         'views/menu.xml',
         'views/report/report_class_template.xml',
         'views/report/report_declare.xml',
+        'views/ray_school.xml',
     ],
     'demo': [
         'demo/demo.xml',

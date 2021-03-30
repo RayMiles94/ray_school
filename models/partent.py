@@ -1,5 +1,6 @@
 from odoo import fields, api, models, _
 from odoo.exceptions import ValidationError
+import time
 
 class partent(models.Model):
     _name = 'ray.school.partent'
@@ -9,7 +10,7 @@ class partent(models.Model):
     email = fields.Char(string="Email", required=True)
     phone = fields.Char(string="Phone", required=True)
     mobile = fields.Char(string="Mobile", required=True)
-    join_date = fields.Date(string="Joind Date", required=True)
+    join_date = fields.Date(string="Joind Date")
     Status = fields.Boolean(string="Status", required=True)
     contact_id = fields.Many2one('res.partner', string="Contact profile")
 
@@ -32,3 +33,11 @@ class partent(models.Model):
     def check_name(self):
         if len(self.mobile) > 45:
             raise ValidationError(_('mobile must be less than 45 chars'))
+
+    def aaaclick(self):
+        start = time.time()
+        ids = self.env['ir.model'].search([]).filtered(lambda m: 'message_ids' in m.env[m.model]._fields)
+        print(time.time()  - start)
+        start2 = time.time()
+        print(self.env['ir.model'].search([]).filtered(lambda m: 'message_ids' in m.mapped('field_id.name')))
+        print(time.time()-start2)

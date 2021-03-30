@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+       <template id="ray_school_js" inherit_id="web.assets_tests" name="Sale backend assets">
+           <xpath expr="script[last()]" position="after">
+               <script type="text/javascript"
+                       src="/ray_school/static/src/js/tours/ray_school.js"></script>
+           </xpath>
+       </template>
+
+    </data>
+</odoo>

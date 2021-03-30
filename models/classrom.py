@@ -27,7 +27,7 @@ class classroom(models.Model):
 
     name= fields.Char('')
     year = fields.Selection(string="Year", selection=YEAR, required=True)
-    grade_id = fields.Many2one('ray.school.grade', string="Grade", required=True)
+    grade_id = fields.Many2one('ray.school.grade', string="Grade")
     section = fields.Selection(selection=[('MATH', 'math'), ('PHY', 'phy'), ('science', 'science'), ('computer', 'computer')], default='math', required=True)
     status = fields.Boolean(string="Status")
     remarks = fields.Text(string="Remark", required=True)

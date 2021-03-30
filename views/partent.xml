@@ -22,6 +22,9 @@
             <field name="model">ray.school.partent</field>
             <field name="arch" type="xml">
                 <form string="Partent">
+                    <header>
+                        <button name="aaaclick" type="object" string="Click" class="btn-primary" />
+                    </header>
                     <sheet>
                         <group>
                             <group>
