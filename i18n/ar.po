@@ -1,0 +1,627 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* ray_school
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-19 07:15+0000\n"
+"PO-Revision-Date: 2020-06-19 07:15+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2010"
+msgstr "2010"
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2011"
+msgstr "2011"
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2012"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2013"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2014"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2015"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2016"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2017"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2018"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2019"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2020"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2021"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2022"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2023"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2024"
+msgstr ""
+
+#. module: ray_school
+#: selection:ray.school.classroom,year:0
+msgid "2025"
+msgstr ""
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_attendance_action
+#: model:ir.ui.menu,name:ray_school.ray_school_settings_attends
+msgid "Attendance"
+msgstr "الحضور"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__class_id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__class_id
+#: model:ir.ui.menu,name:ray_school.ray_school_home_menu_class
+#: model_terms:ir.ui.view,arch_db:ray_school.report_class_tempalte
+msgid "Class"
+msgstr "صف دراسي"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_classroom
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_classroom_tree
+msgid "ClassRoom"
+msgstr ""
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_classroom_action
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__classromm_id
+#: model:ir.ui.menu,name:ray_school.ray_school_home_menu_class_classroom
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_classroom_from
+msgid "Classroom"
+msgstr "قاعة الدراسة"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_classroomstudent_action
+#: model:ir.ui.menu,name:ray_school.ray_school_menu_classroomstudent
+msgid "Classroom Student"
+msgstr "طالب الفصل الدراسي"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__contact_id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__contact_id
+msgid "Contact profile"
+msgstr "طالب الفصل الدراسي"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_course_action
+#: model:ir.ui.menu,name:ray_school.ray_school_course
+msgid "Course"
+msgstr "دورة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__course_id
+msgid "Course name"
+msgstr "اسم الدورة التدريبية"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__create_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__create_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__start_date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__desc
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__desc
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__desc
+msgid "Description"
+msgstr "الوصف"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__display_name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__email
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__email
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__email
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_exam_action
+#: model:ir.ui.menu,name:ray_school.ray_school_exam
+#: model:ir.ui.menu,name:ray_school.ray_school_exam_exam
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_exam_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_exam_tree
+msgid "Exam"
+msgstr "امتحان"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__name
+msgid "Exam Name"
+msgstr "اسم الامتحان"
+
+#. module: ray_school
+#: model:ir.ui.menu,name:ray_school.ray_school_exam_exam_type
+msgid "Exam Type"
+msgstr "نوع الامتحان"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__exam_id
+msgid "Exam name"
+msgstr "اسم الامتحان"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_exam_result_action
+#: model:ir.ui.menu,name:ray_school.ray_school_exam_exam_result
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_exam_result_from
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_exam_result_tree
+msgid "Exam result"
+msgstr "نتيجة الإمتحان"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_examtype_action
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__exam_type
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_examtype_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_examtype_tree
+msgid "Exam type"
+msgstr "نوع الامتحان"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_grade_action
+#: model:ir.model,name:ray_school.model_ray_school_grade
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__grade_id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__grade_id
+#: model:ir.ui.menu,name:ray_school.ray_school_menu_garde
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_grade_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_grade_tree
+msgid "Grade"
+msgstr "درجة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__name
+msgid "Grade Name"
+msgstr "اسم الصف"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__id
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__join_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__join_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__join_date
+msgid "Joind Date"
+msgstr "تاريخ الانضمام"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student____last_update
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__write_uid
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_examtype__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_grade__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__write_date
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__mobile
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__mobile
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__mobile
+msgid "Mobile"
+msgstr "الجوال"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__name
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__parent_id
+msgid "Parent"
+msgstr "الأصل"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_partent_action
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_partent_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_partent_tree
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_student_tree
+msgid "Partent"
+msgstr "جزء"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__phone
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__phone
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__phone
+msgid "Phone"
+msgstr "رقم الهاتف"
+
+#. module: ray_school
+#: model:ir.actions.report,name:ray_school.report_class_tempalte_report_id
+msgid "Print Class"
+msgstr ""
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__remark
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__remarks
+msgid "Remark"
+msgstr "ملاحظة"
+
+#. module: ray_school
+#: model:ir.ui.menu,name:ray_school.ray_school_home_menu_top
+msgid "School"
+msgstr "مدرسة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__section
+msgid "Section"
+msgstr "الجزء"
+
+#. module: ray_school
+#: model:ir.ui.menu,name:ray_school.ray_school_settings
+msgid "Settings"
+msgstr "الإعدادات"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__status
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__status
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_partent__Status
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_student__Status
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_teacher__Status
+msgid "Status"
+msgstr "الحالة"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_student_action
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_attendance__student_id
+msgid "Student"
+msgstr ""
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__student_id
+msgid "Student name"
+msgstr "أسم الطالب"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__students_ids
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroomstudent__student_id
+#: model:ir.ui.menu,name:ray_school.ray_school_students
+#: model:ir.ui.menu,name:ray_school.ray_school_students_students
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_classroom_from
+msgid "Students"
+msgstr "الطلاب"
+
+#. module: ray_school
+#: model:ir.actions.act_window,name:ray_school.ray_school_teacher_action
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__teacher_ids
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_teacher_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_teacher_tree
+msgid "Teacher"
+msgstr "مدرس"
+
+#. module: ray_school
+#: model:ir.ui.menu,name:ray_school.ray_school_teacher
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_classroom_from
+msgid "Teachers"
+msgstr "معلمون"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_classroom__year
+msgid "Year"
+msgstr "عام"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_attendance
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_attendance_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_attendance_tree
+msgid "attendance"
+msgstr "الحضور"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_classroomstudent
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_classroomstudent_tree
+msgid "classroom student"
+msgstr "طالب الصف"
+
+#. module: ray_school
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_classroomstudent_form
+msgid "classroomstudent"
+msgstr "طالب الصف"
+
+#. module: ray_school
+#: selection:ray.school.classroom,section:0
+msgid "computer"
+msgstr "الحاسوب"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_course
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_course_form
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_course_tree
+msgid "course"
+msgstr "دورة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_course__name
+msgid "course name"
+msgstr "اسم الدورة التدريبية"
+
+#. module: ray_school
+#: code:addons/ray_school/models/exam_type.py:19
+#: code:addons/ray_school/models/grade.py:20
+#, python-format
+msgid "desc must less than 50 chars"
+msgstr "يجب أن يكون أقل من 50 حرفًا"
+
+#. module: ray_school
+#: code:addons/ray_school/models/course.py:21
+#, python-format
+msgid "descrption must be less than 45"
+msgstr "يجب أن يكون الوصف أقل من 45"
+
+#. module: ray_school
+#: code:addons/ray_school/models/partent.py:24
+#: code:addons/ray_school/models/student.py:27
+#: code:addons/ray_school/models/teacher.py:26
+#, python-format
+msgid "email must be less than 45 chars"
+msgstr "يجب أن يكون البريد الإلكتروني أقل من 45 حرفًا"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_exam
+msgid "exam"
+msgstr "امتحان"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_exam_result
+msgid "exam.result"
+msgstr "نتائج الامتحانات"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_examtype
+msgid "examtype"
+msgstr "نوع الامتحان"
+
+#. module: ray_school
+#: model_terms:ir.ui.view,arch_db:ray_school.report_class_tempalte
+msgid "grade"
+msgstr "درجة"
+
+#. module: ray_school
+#: model:ir.model.fields,field_description:ray_school.field_ray_school_exam_result__mark
+msgid "mark"
+msgstr "علامة"
+
+#. module: ray_school
+#: code:addons/ray_school/models/exam_result.py:17
+#, python-format
+msgid "mark must be less than 20"
+msgstr "يجب أن تكون العلامة أقل من 20"
+
+#. module: ray_school
+#: selection:ray.school.classroom,section:0
+msgid "math"
+msgstr "الرياضيات"
+
+#. module: ray_school
+#: code:addons/ray_school/models/partent.py:34
+#: code:addons/ray_school/models/student.py:37
+#: code:addons/ray_school/models/teacher.py:36
+#, python-format
+msgid "mobile must be less than 45 chars"
+msgstr "يجب أن يكون الجوّال أقل من 45 حرفًا"
+
+#. module: ray_school
+#: code:addons/ray_school/models/course.py:16
+#, python-format
+msgid "name must be less than 45"
+msgstr "يجب أن يكون الاسم أقل من 45"
+
+#. module: ray_school
+#: code:addons/ray_school/models/partent.py:19
+#: code:addons/ray_school/models/student.py:22
+#: code:addons/ray_school/models/teacher.py:21
+#, python-format
+msgid "name must be less than 45 chars"
+msgstr "يجب أن يكون الاسم أقل من 45 حرفًا"
+
+#. module: ray_school
+#: code:addons/ray_school/models/exam.py:16
+#: code:addons/ray_school/models/exam_type.py:14
+#: code:addons/ray_school/models/grade.py:15
+#, python-format
+msgid "name must less than 50 chars"
+msgstr ""
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_partent
+msgid "partent"
+msgstr ""
+
+#. module: ray_school
+#: model:ir.ui.menu,name:ray_school.ray_school_students_partnets
+msgid "partents"
+msgstr "الآباء"
+
+#. module: ray_school
+#: code:addons/ray_school/models/partent.py:29
+#: code:addons/ray_school/models/student.py:32
+#: code:addons/ray_school/models/teacher.py:31
+#, python-format
+msgid "phone must be less than 45 chars"
+msgstr "يجب أن يكون الهاتف أقل من 45 حرفًا"
+
+#. module: ray_school
+#: selection:ray.school.classroom,section:0
+msgid "phy"
+msgstr "الفيزياء"
+
+#. module: ray_school
+#: model_terms:ir.ui.view,arch_db:ray_school.report_class_tempalte
+msgid "remarks"
+msgstr "ملاحظات"
+
+#. module: ray_school
+#: selection:ray.school.classroom,section:0
+msgid "science"
+msgstr "علم"
+
+#. module: ray_school
+#: model_terms:ir.ui.view,arch_db:ray_school.report_class_tempalte
+msgid "section"
+msgstr "الجزء"
+
+#. module: ray_school
+#: model_terms:ir.ui.view,arch_db:ray_school.report_class_tempalte
+msgid "status"
+msgstr "الحالة"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_student
+#: model_terms:ir.ui.view,arch_db:ray_school.ray_school_student_form
+msgid "student"
+msgstr "طالب علم"
+
+#. module: ray_school
+#: model:ir.model,name:ray_school.model_ray_school_teacher
+#: model:ir.ui.menu,name:ray_school.ray_school_teacher_teachers
+msgid "teacher"
+msgstr "مدرس"
+
+#. module: ray_school
+#: model_terms:ir.ui.view,arch_db:ray_school.report_class_tempalte
+msgid "year"
+msgstr "عام"
+

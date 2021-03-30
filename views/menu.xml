@@ -68,10 +68,10 @@
                   parent="ray_school_students"
                   action="ray_school_student_action"
                   sequence="1"/>
-        <menuitem id="ray_school_students_partnets"
-                  name="partents"
+        <menuitem id="ray_school_students_parnets"
+                  name="parents"
                   parent="ray_school_students"
-                  action="ray_school_partent_action"
+                  action="ray_school_parent_action"
                   sequence="2"/>
 
         <!-- settings -->

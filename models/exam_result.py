@@ -8,7 +8,7 @@ class exam_result(models.Model):
 
     exam_id = fields.Many2one('ray.school.exam', string="Exam name", required=True)
     student_id = fields.Many2one('ray.school.student', string="Student name", required=True)
-    course_id = fields.Many2one('ray.school.student', string="Course name", required=True)
+    course_id = fields.Many2one('ray.school.course', string="Course name", required=True)
     mark = fields.Float(string="mark")
 
     @api.constrains('mark')

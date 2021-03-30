@@ -7,6 +7,6 @@ modele_id_5,ray_school_exam,ray_school.model_ray_school_exam,,1,1,1,1
 modele_id_6,ray_school_exam_result,ray_school.model_ray_school_exam_result,,1,1,1,1
 modele_id_7,ray_school_examtype,ray_school.model_ray_school_examtype,,1,1,1,1
 modele_id_8,ray_school_grade,ray_school.model_ray_school_grade,,1,1,1,1
-modele_id_9,ray_school_partent,ray_school.model_ray_school_partent,,1,1,1,1
+modele_id_9,ray_school_parent,ray_school.model_ray_school_parent,,1,1,1,1
 modele_id_10,ray_school_student,ray_school.model_ray_school_student,,1,1,1,1
 modele_id_11,ray_school_teacher,ray_school.model_ray_school_teacher,,1,1,1,1

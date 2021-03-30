@@ -10,6 +10,7 @@ class exam(models.Model):
     start_date = fields.Date(string="Date", required=True)
     exam_type = fields.Many2one('ray.school.examtype', string="Exam type")
 
+
     @api.constrains('name')
     def check_name(self):
         if len(self.name) > 45:

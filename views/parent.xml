@@ -2,11 +2,11 @@
 <odoo>
     <data>
 
-        <record id="ray_school_partent_tree" model="ir.ui.view">
-            <field name="name">ray.school.partent.tree</field>
-            <field name="model">ray.school.partent</field>
+        <record id="ray_school_parent_tree" model="ir.ui.view">
+            <field name="name">ray.school.parent.tree</field>
+            <field name="model">ray.school.parent</field>
             <field name="arch" type="xml">
-                <tree string="Partent">
+                <tree string="Parent">
                     <field name="name"/>
                     <field name="email"/>
                     <field name="phone"/>
@@ -17,9 +17,9 @@
             </field>
         </record>
 
-        <record id="ray_school_partent_form" model="ir.ui.view">
-            <field name="name">ray.school.partent.form</field>
-            <field name="model">ray.school.partent</field>
+        <record id="ray_school_parent_form" model="ir.ui.view">
+            <field name="name">ray.school.parent.form</field>
+            <field name="model">ray.school.parent</field>
             <field name="arch" type="xml">
                 <form string="Partent">
                     <header>
@@ -44,10 +44,10 @@
             </field>
         </record>
 
-        <record id="ray_school_partent_action" model="ir.actions.act_window">
-            <field name="name">Partent</field>
+        <record id="ray_school_parent_action" model="ir.actions.act_window">
+            <field name="name">Parent</field>
             <field name="type">ir.actions.act_window</field>
-            <field name="res_model">ray.school.partent</field>
+            <field name="res_model">ray.school.parent</field>
             <field name="view_mode">tree,form</field>
         </record>
 

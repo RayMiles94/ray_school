@@ -8,6 +8,7 @@ class course(models.Model):
 
     name = fields.Char(string='course name', required=True)
     desc = fields.Char(string='Description', required=True)
+    course = fields.Binary(string="Course")
     grade_id = fields.Many2one('ray.school.grade', string="Grade", required=True)
 
     @api.constrains('name')

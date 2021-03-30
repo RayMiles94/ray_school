@@ -24,6 +24,7 @@
                             <group>
                                 <field name="name"/>
                                 <field name="desc"/>
+                                <field name="course"/>
                                 <field name="grade_id"/>
                             </group>
                         </group>

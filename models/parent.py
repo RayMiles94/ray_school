@@ -3,7 +3,7 @@ from odoo.exceptions import ValidationError
 import time
 
 class partent(models.Model):
-    _name = 'ray.school.partent'
+    _name = 'ray.school.parent'
     _description = 'partent'
 
     name = fields.Char(string="Name", requried=True)
